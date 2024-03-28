@@ -37,8 +37,8 @@ function TaskManager(){
     
     return(<div className="todo-list">
 
-        <h1>TO DO</h1>
-        <h2>change after github</h2>
+        <h1>TO DO LIST</h1>
+
         <div>
             <input
                 type="text"
