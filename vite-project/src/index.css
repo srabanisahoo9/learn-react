@@ -1,0 +1,131 @@
+body {
+  background-color: #f4f4f4; /* Light grey background color */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font family */
+}
+
+.todo-list {
+  text-align: center;
+  margin-top: 50px; /* Reduce margin-top for better alignment */
+}
+
+h1 {
+  font-size: 3.5rem; /* Reduce font size of heading */
+  color: #333; /* Darken heading color */
+}
+
+button {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button {
+  background-color: #4CAF50; /* Green color */
+}
+
+.add-button:hover {
+  background-color: #45a049; /* Darken green on hover */
+}
+
+.delete-button {
+  background-color: #f44336; /* Red color */
+  margin-right:10px;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f; /* Darken red on hover */
+}
+
+.move-button {
+  background-color: #2196F3; /* Blue color */
+}
+
+.move-button:hover {
+  background-color: #1e88e5; /* Darken blue on hover */
+}
+
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid #ccc; /* Lighter border color */
+  border-radius: 5px;
+  width: 70%;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font family */
+  color: #333; /* Darken text color */
+  font-weight: 400; /* Normal font weight */
+  margin-right:10px;
+}
+.text{
+  padding-right: 1rem;
+}
+input[type="text"]:focus {
+  outline: none;
+  border-color: #5c9e5c; /* Light green on focus */
+  box-shadow: 0 0 5px rgba(92, 158, 92, 0.5);
+}
+
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #5c9e5c; /* Light green on focus */
+  box-shadow: 0 0 5px rgba(92, 158, 92, 0.5);
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  font-size: 1.8rem;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #fff; /* White background color */
+  border-radius: 5px;
+  list-style-type: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+/* Style for even numbered list items */
+li:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey background color for even items */
+}
+
+/* Style for list items on hover */
+li:hover {
+  background-color: #f9f9f9; /* Lighter grey on hover */
+  cursor: pointer;
+}
+
+/* Style for completed todo items */
+li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid #ccc; /* Lighter border color */
+  border-radius: 5px;
+  width: 70%;
+  margin-bottom: 10px;
+  margin-right: 10px; /* Add margin to the right of the input text */
+}
+
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  margin-right: 10px; /* Add margin to the right of all buttons */
+}
